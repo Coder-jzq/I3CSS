@@ -1,5 +1,5 @@
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fkeonlee9420%2FDailyTalk&count_bg=%23707EE1&title_bg=%23555555&icon=pytorch.svg&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
-# Intra- and Inter-modal Context Interaction Modeling for Conversational Speech Synthesis (I3-CSS)
+# Intra- and Inter-modal Context Interaction Modeling for Conversational Speech Synthesis (III-CSS)
 
 <hr>
 
@@ -13,7 +13,6 @@ Corresponding Author: Rui Liu
 
 
 
-<hr>
 
 ## Demo Page
 
@@ -21,7 +20,6 @@ Corresponding Author: Rui Liu
 
 
 
-<hr>
 
 ## Dataset
 
@@ -29,7 +27,6 @@ You can download the [dataset](https://drive.google.com/drive/folders/1WRt-EprWs
 
 
 
-<hr>
 
 ## Pre-trained models
 
@@ -39,7 +36,6 @@ The Hugging Face URL of Wav2Vec2-IEMOCAP: https://huggingface.co/speechbrain/emo
 
 
 
-<hr>
 
 ## Preprocessing
 
@@ -57,17 +53,15 @@ After that, run the preprocessing script by
 
 
 
-<hr>
 
 ## Training
 
-Train I3-CSS with
+Train III-CSS with
 
 > python3 train.py --dataset DailyTalk
 
 
 
-<hr>
 
 ## Inference
 
@@ -79,7 +73,6 @@ to synthesize all utterances in `preprocessed_data/DailyTalk/test_*.txt`.
 
 
 
-<hr>
 
 ## Citation
 
@@ -100,7 +93,6 @@ If you would like to use our dataset and code or refer to our paper, please cite
 
 
 
-<hr>
 
 ## Contact the Author
 
